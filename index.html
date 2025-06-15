@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polimix Concreto</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <img src="polimix-logo.jpg" alt="Logo Polimix" class="h-12">
+    <nav class="space-x-4">
+      <a href="#sobre" class="text-gray-700 hover:text-yellow-600">Sobre</a>
+      <a href="#servicos" class="text-gray-700 hover:text-yellow-600">Serviços</a>
+      <a href="#avaliacoes" class="text-gray-700 hover:text-yellow-600">Avaliações</a>
+      <a href="#calculadora" class="text-gray-700 hover:text-yellow-600">Calculadora</a>
+      <a href="#contato" class="text-gray-700 hover:text-yellow-600">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-yellow-600 text-white text-center py-20 px-4">
+    <h1 class="text-4xl font-bold mb-4">Concreto de Qualidade em Todo o Brasil</h1>
+    <p class="text-lg mb-6">Atendimento rápido, seguro e confiável para sua obra.</p>
+    <a href="https://wa.me/5511912301250" class="bg-white text-yellow-700 px-6 py-3 rounded font-bold">Fale Conosco no WhatsApp</a>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="py-16 px-4 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Sobre a Polimix</h2>
+    <p class="text-lg text-gray-700">Com anos de experiência no mercado, a Polimix é referência em fornecimento de concreto usinado em todo o Brasil. Atuamos com comprometimento, pontualidade e materiais de alta qualidade, sempre priorizando a satisfação de nossos clientes.</p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-gray-200 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Nossos Serviços</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Concreto Usinado</h3>
+          <p>Alta resistência e qualidade para todas as fases da obra.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Bombeamento de Concreto</h3>
+          <p>Agilidade e eficiência no transporte do concreto até o ponto de aplicação.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Piso Industrial</h3>
+          <p>Durabilidade e acabamento profissional para áreas industriais e comerciais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avaliações -->
+  <section id="avaliacoes" class="py-16 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">O que nossos clientes dizem</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Excelente atendimento e entrega no prazo! Recomendo.”</p><p class="font-bold mt-2">João M.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Muito profissionais, concreto de qualidade.”</p><p class="font-bold mt-2">Mariana S.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Entrega rápida e atendimento top.”</p><p class="font-bold mt-2">Carlos T.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Preço justo e ótima qualidade.”</p><p class="font-bold mt-2">Renata F.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Ajudaram muito com orientações técnicas.”</p><p class="font-bold mt-2">Eduardo P.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Segunda vez que contrato, sempre ótimos.”</p><p class="font-bold mt-2">Luciana K.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Equipe atenciosa do começo ao fim.”</p><p class="font-bold mt-2">Marcelo B.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Concreto chegou na hora certa. Recomendo.”</p><p class="font-bold mt-2">Tatiane D.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Tudo conforme combinado, sem dor de cabeça.”</p><p class="font-bold mt-2">Fernando L.</p></div>
+      <div class="bg-white p-4 rounded shadow"><p class="italic">“Melhor fornecedora de concreto que já contratei.”</p><p class="font-bold mt-2">Bruna C.</p></div>
+    </div>
+  </section>
+
+  <!-- Calculadora de Concreto -->
+  <section id="calculadora" class="bg-white py-16 px-4 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Calculadora de Concreto</h2>
+    <p class="mb-6 text-gray-700">Para calcular a quantidade de concreto necessária, use a fórmula básica: <strong>Volume = Comprimento x Largura x Altura</strong>. Lembre-se de adicionar uma margem de segurança de 10% a 15% para evitar falta de material. Exemplo: uma laje de 5m x 10m com 0,1m de espessura = 5m³ + 15% = 5,75m³.</p>
+    <form id="form-calculadora" class="grid gap-4">
+      <div>
+        <label class="block font-bold mb-1">Comprimento (em metros):</label>
+        <input type="number" id="comprimento" class="w-full p-2 border rounded" min="0" step="any" required>
+      </div>
+      <div>
+        <label class="block font-bold mb-1">Largura (em metros):</label>
+        <input type="number" id="largura" class="w-full p-2 border rounded" min="0" step="any" required>
+      </div>
+      <div>
+        <label class="block font-bold mb-1">Altura (em metros):</label>
+        <input type="number" id="altura" class="w-full p-2 border rounded" min="0" step="any" required>
+      </div>
+      <div>
+        <label class="block font-bold mb-1">Local da Entrega:</label>
+        <input type="text" id="local" class="w-full p-2 border rounded" required>
+      </div>
+      <div>
+        <label class="block font-bold mb-1">Tipo de Obra:</label>
+        <input type="text" id="tipo" class="w-full p-2 border rounded" required>
+      </div>
+      <button type="button" onclick="calcularVolume()" class="bg-yellow-600 text-white px-4 py-2 rounded font-bold hover:bg-yellow-700">Calcular Volume</button>
+      <p id="resultado" class="mt-4 text-lg font-bold text-center"></p>
+      <a id="link-whatsapp" target="_blank" class="hidden mt-4 block text-center bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 font-bold">Enviar para Orçamento no WhatsApp</a>
+    </form>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-yellow-600 text-white py-16 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">Fale Conosco</h2>
+    <p class="mb-6">Estamos prontos para atender sua obra em qualquer lugar do Brasil.</p>
+    <a href="https://wa.me/5511912301250" class="bg-white text-yellow-700 px-6 py-3 rounded font-bold">Clique aqui para falar no WhatsApp</a>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-gray-100 py-16 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Perguntas Frequentes</h2>
+    <div class="space-y-6">
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-bold text-lg mb-2">1. Qual o prazo de entrega do concreto?</h3>
+        <p>O prazo de entrega varia conforme a localização e demanda, mas geralmente conseguimos atender em até 24 horas.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-bold text-lg mb-2">2. Vocês atendem fora da cidade?</h3>
+        <p>Sim, atendemos em todo o território nacional. Consulte nossa equipe para saber os detalhes de logística para sua região.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-bold text-lg mb-2">3. Qual a quantidade mínima de concreto para entrega?</h3>
+        <p>Trabalhamos com pedidos a partir de 1m³, mas é possível negociar volumes menores em regiões específicas.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-bold text-lg mb-2">4. Como faço um pedido?</h3>
+        <p>Você pode solicitar um orçamento diretamente pelo WhatsApp ou utilizando a nossa calculadora para estimar o volume necessário e iniciar o contato.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-bold text-lg mb-2">5. O que é necessário para agendar uma entrega?</h3>
+        <p>Precisamos da metragem exata, endereço da obra, e forma de pagamento. Nossa equipe irá confirmar a disponibilidade e programar a entrega.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white text-center p-6">
+    <p>&copy; 2025 Polimix Concreto. Todos os direitos reservados.</p>
+    <p>CNPJ: 29.067.113/0001-96</p>
+  </footer>
+
+  <!-- Botão WhatsApp -->
+  <a href="https://wa.me/5511912301250" class="fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50" target="_blank">💬</a>
+
+  <script>
+    function calcularVolume() {
+      const comprimento = parseFloat(document.getElementById('comprimento').value);
+      const largura = parseFloat(document.getElementById('largura').value);
+      const altura = parseFloat(document.getElementById('altura').value);
+      const local = document.getElementById('local').value;
+      const tipo = document.getElementById('tipo').value;
+
+      if (isNaN(comprimento) || isNaN(largura) || isNaN(altura) || !local || !tipo) {
+        alert('Por favor, preencha todos os campos corretamente.');
+        return;
+      }
+
+      const volumeBase = comprimento * largura * altura;
+      const volumeTotal = (volumeBase * 1.15).toFixed(2);
+      const resultado = document.getElementById('resultado');
+      resultado.textContent = `Volume estimado com margem de segurança: ${volumeTotal} m³`;
+
+      const texto = `Olá, gostaria de solicitar um orçamento para ${volumeTotal} m³ de concreto.\nLocal: ${local}\nTipo de obra: ${tipo}`;
+      const link = `https://wa.me/5511912301250?text=${encodeURIComponent(texto)}`;
+
+      const whatsapp = document.getElementById('link-whatsapp');
+      whatsapp.href = link;
+      whatsapp.classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
